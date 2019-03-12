@@ -1,0 +1,8 @@
+.animate-this{
+  opacity: 0;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  &.animate-view{
+    opacity: 1;
+  }
+}
